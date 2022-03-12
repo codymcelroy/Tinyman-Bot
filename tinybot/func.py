@@ -44,7 +44,7 @@ class Func:
   def save_pickle(outlist,outswaps,workbook):
           data_tuples = tuple(zip(outlist,outswaps))
           sorted_data = sorted(data_tuples, reverse=True,key=lambda tup:(tup[0]))
-          cleaned_tup = remove_duplicates(sorted_data)
+          cleaned_tup = Func.remove_duplicates(sorted_data)
           with open(workbook, 'wb') as filehandle:
               # store the data as binary data stream
               pickle.dump(cleaned_tup, filehandle)
