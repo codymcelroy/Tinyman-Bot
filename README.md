@@ -2,7 +2,7 @@
 
 Algorand trading bot on Tinyman.org
 
-Be adivised that this project still being development and exercise caution when using. 
+Be adivised that this project under development. Please exercise caution before. 
 
 ## How to use
 
